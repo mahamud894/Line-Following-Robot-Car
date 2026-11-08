@@ -1,6 +1,6 @@
 # 🤖 2-Wheel Autonomous Line Follower Robot
 
-An Arduino Uno based robot car that follows a black line on the floor completely on its own — no remote, no external control. Built as a final lab project (A4 topic) by **Shanawaz Sakib**.
+An Arduino Uno based robot car that follows a black line on the floor completely on its own — no remote, no external control. Built as a final lab project (A4 topic) by **Mahamud Hassan**.
 
 <p align="center">
   <img src="demo.gif" alt="Robot following a closed black-tape track" width="260">
