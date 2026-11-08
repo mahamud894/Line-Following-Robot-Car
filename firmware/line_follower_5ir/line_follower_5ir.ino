@@ -1,5 +1,6 @@
 /*
- * 2-Wheel Autonomous Line Follower Robot - v1 (as in the project report)
+ * 2-Wheel Autonomous Line Follower Robot - v1: 5-channel digital IR array
+ * Author: Mahamud Hassan
  * Arduino Uno R3 + 5-channel digital IR array + L298N + 2x N20 motors
  * Black line = HIGH, white floor = LOW (swap HIGH/LOW if your module is inverted)
  */

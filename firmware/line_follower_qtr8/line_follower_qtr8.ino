@@ -1,5 +1,6 @@
 /*
- * Line Follower Robot - v2: 8-channel QTR (RC) array + proportional (P) control
+ * 2-Wheel Autonomous Line Follower Robot - v2: 8-channel QTR (RC) array + P control
+ * Author: Mahamud Hassan
  * Library: "QTRSensors" by Pololu (install via Arduino Library Manager)
  */
 #include <QTRSensors.h>
@@ -26,7 +27,8 @@ void setup() {
   pinMode(IN3, OUTPUT); pinMode(IN4, OUTPUT);
   pinMode(LED_BUILTIN, OUTPUT);
 
-  // Calibration: pin 13 LED stays on. Sweep the sensors over line and floor.
+  // Calibration (~10 s): pin 13 LED stays on. Slide the robot by hand left and
+  // right across the line so every sensor sees both black line and white floor.
   digitalWrite(LED_BUILTIN, HIGH);
   for (int i = 0; i < 400; i++) {
     qtr.calibrate();
